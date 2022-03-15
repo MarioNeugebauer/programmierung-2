@@ -2,6 +2,7 @@ package org.htw.inf;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyListener;
 
 public class ScreenMemory extends JPanel {
 
@@ -14,7 +15,7 @@ public class ScreenMemory extends JPanel {
     private char[][] screen;
 
     // Constructor
-    public ScreenMemory(int xDimMax, int yDimMax) {
+    public ScreenMemory(int xDimMax, int yDimMax, KeyListener listener) {
         super(new GridBagLayout());
 
         this.yMax = yDimMax;
@@ -26,8 +27,8 @@ public class ScreenMemory extends JPanel {
                 screen[x][y] = '.';
             }
         }
-
         createAndShowGUI();
+        textArea.addKeyListener(listener);
     }
 
     public void printScreenToTextArea() {
