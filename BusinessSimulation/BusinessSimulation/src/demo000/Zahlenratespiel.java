@@ -8,7 +8,7 @@ public class Zahlenratespiel {
 		
 	    Scanner myScanner = new Scanner(System.in);
 	    
-		int randomInt = (int)(Math.random()*100);
+	    int randomInt = (int)(Math.random()*100);
 		int zahlGeraten;
 
 		// ...
