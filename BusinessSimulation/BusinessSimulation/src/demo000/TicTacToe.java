@@ -8,7 +8,7 @@ public class TicTacToe {
 		
 	    Scanner myScanner = new Scanner(System.in);
 
-		// Variable, um die mit scanf eingebene Feldnummer zu speichern
+		// Variable, um die mit Scanner eingebene Feldnummer zu speichern
 		int feldEingegeben=0;
 
 		// true setzen, falls Integer eingegeben wurde, ansonsten false

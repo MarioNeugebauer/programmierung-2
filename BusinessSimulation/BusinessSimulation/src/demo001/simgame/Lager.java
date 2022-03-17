@@ -69,7 +69,7 @@ public class Lager {
 				return bisherigerBestand*preis;
 			} 
 		} 
-		return -1;
+		return 0;
 	}
 	
 	/**
