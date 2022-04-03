@@ -15,7 +15,20 @@ class ScannerInput {
     System.out.println("Zeichenkette: " + zeichenkette);
     System.out.println("Ein Integer: " + einInteger);
     
-
+    boolean scannerSuccess = false;
+    while(!scannerSuccess) {
+        System.out.print("Eingabe: ");
+    	if(myScanner.hasNextInt()) {
+    		einInteger=myScanner.nextInt();
+    		myScanner.nextLine();
+    		scannerSuccess=true;
+    	} else {
+    		myScanner.nextLine();
+    		scannerSuccess=false;
+    	}
+    }
+    
+    
     myScanner.close();
   }
 }
