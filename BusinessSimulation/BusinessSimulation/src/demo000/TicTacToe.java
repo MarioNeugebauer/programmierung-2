@@ -21,6 +21,7 @@ public class TicTacToe {
 			try {
 			    System.out.println("Feldnummer als Integer eingeben:");
 			    feldEingegeben = myScanner.nextInt();
+			    myScanner.nextLine();
 				scannerErfolg=true;
 			} catch (Exception e) {
 				scannerErfolg=false;
