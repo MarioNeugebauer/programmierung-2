@@ -19,7 +19,7 @@ public class Fahrzeug {
 	}
 	
 	public String toString() {
-		return "Raederanzahl: " + anzahlRaeder+"Hersteller: "+hersteller+"Gewicht: "+gewicht;
+		return "Raederanzahl: " + anzahlRaeder+", Hersteller: "+hersteller+", Gewicht: "+gewicht;
 	}
 	
 	public int getAnzahlRaeder() {
