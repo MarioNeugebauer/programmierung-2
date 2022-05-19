@@ -38,7 +38,7 @@ public class SimpleFileReading {
 		}
 	}
 
-	public void testFileReadingUnchecked(String[] args) // throws Exception
+	public void testFileReadingUnchecked(String[] args)
 	{
 
 		File file = new File("C:\\daten\\test.txt");
