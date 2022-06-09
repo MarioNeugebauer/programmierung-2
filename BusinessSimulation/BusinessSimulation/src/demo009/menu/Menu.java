@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import demo009.ApplicationContext;
-import demo009.util.Util;
+import demo009.misc.Util;
 
 /**
  * Ein Menu kann angelegt werden, um darin Commands aufzunehmen, die bei der

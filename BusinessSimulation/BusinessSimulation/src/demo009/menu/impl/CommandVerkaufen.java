@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import demo009.util.Util;
 import demo009.ApplicationContext;
 import demo009.menu.Command;
+import demo009.misc.Util;
 import demo009.model.Warenart;
 
 public class CommandVerkaufen implements Command {

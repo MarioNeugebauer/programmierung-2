@@ -1,4 +1,4 @@
-package demo009.util;
+package demo009.misc;
 
 import demo009.model.Warenart;
 

@@ -1,6 +1,6 @@
 package demo009.model;
 
-import demo009.util.Util;
+import demo009.misc.Util;
 
 public class Niederlassung extends Standort {
 
