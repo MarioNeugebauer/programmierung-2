@@ -9,7 +9,7 @@ import java.io.*;
 //Main class
 public class SimpleFileReading {
 
-	public void testFileReading(String[] args) // throws Exception
+	public void testFileReading(String[] args)  throws Exception
 	{
 
 		File file = new File(
@@ -38,7 +38,7 @@ public class SimpleFileReading {
 		}
 	}
 
-	public void testFileReadingUnchecked(String[] args)
+	public void testFileReadingUnchecked(String[] args) throws IOException
 	{
 
 		File file = new File("C:\\daten\\test.txt");
